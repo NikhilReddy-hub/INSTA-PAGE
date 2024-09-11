@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:5500/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Instagram</title>
+<link rel="stylesheet" href="./Instagram page by Nikhil_files/style.css"></head>
+<body>
+    <section>
+        <div class="main">
+            
+            <img id="insta-logo" src="./Instagram page by Nikhil_files/insta.png" alt="">
+        </div>
+            <div class="second">
+                <input type="text" placeholder="Phone number,username, or email">
+                <input type="text" placeholder="Password">
+                <button>Log in</button>
+                <span>
+                    <p>____________________</p>
+                     OR
+                    <p>____________________</p>
+                    
+                </span>
+                <div class="fb">
+                    <img src="./Instagram page by Nikhil_files/facebook.png" alt="">
+                    <h5>Log in with facebook</h5>
+            </div>
+            <small>Forgot Password?</small>
+            </div>
+        <div class="sub">
+            <p>Don't have an account?<span>Sign up</span></p>
+            <div class="apps"></div>
+            <p>Get the App.</p>
+           
+            
+            
+        </div>
+            <div class="footer">
+            <span>Meta</span>
+            <span>About</span>
+            <span>Blog</span>
+            <span>Jobs</span>
+            <span>Help</span>
+            <span>API</span>
+            <span>Privacy</span>
+            <span>Terms</span>
+            <span>Top Accounts</span>
+            <span>Hashtags</span>
+            <span>Locations</span>
+            <span>Instagram Lite</span>
+            <span>Contact Uploading &amp; Non-Users</span>
+            <select>
+                <option value="English"></option>
+                <option value="Hindi"></option>
+                <option value="Telugu"></option>
+
+            </select>
+            <span style="cursor: auto;">@ 2024 Instagram From Meta </span>    
+        </div>    
+
+    </section>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
